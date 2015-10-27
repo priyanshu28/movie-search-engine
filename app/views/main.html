@@ -1,23 +1,20 @@
-<div class="jumbotron">
-  <h1>'Allo, 'Allo!</h1>
-  <p class="lead">
-    <img src="images/yeoman.png" alt="I'm Yeoman"><br>
-    Always a pleasure scaffolding your apps.
-  </p>
-  <p><a class="btn btn-lg btn-success" ng-href="#/">Splendid!<span class="glyphicon glyphicon-ok"></span></a></p>
-</div>
-
-<div class="row marketing">
-  <h4>HTML5 Boilerplate</h4>
-  <p>
-    HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.
-  </p>
-
-  <h4>Angular</h4>
-  <p>
-    AngularJS is a toolset for building the framework most suited to your application development.
-  </p>
-
-  <h4>Karma</h4>
-  <p>Spectacular Test Runner for JavaScript.</p>
-</div>
+<input type="text" ng-model="search" ng-change="change()">
+{{search}}
+<p>{{data}}</p>
+<img ng-src="{{data.Poster}}" alt="Movie Poster N/A">
+<h1>{{data.Title}}</h1>
+<p><strong>Year:</strong> {{data.Year}}</p>
+<p><strong>Director:</strong> {{data.Director}}</p>
+<p><strong>Actors:</strong> {{data.Actors}}</p>
+<p><strong>Writer:</strong> {{data.Writer}}</p>
+<p><strong>Awards:</strong> {{data.Awards}}</p>
+<p><strong>Rated:</strong> {{data.Rated}}</p>
+<p><strong>Released:</strong> {{data.Released}}</p>
+<p><strong>Runtime:</strong> {{data.Runtime}}</p>
+<p><strong>Plot:</strong> {{data.Plot}}</p>
+<p><strong>Metascore:</strong> {{data.Metascore}}</p>
+<p><strong>Genre:</strong> {{data.Genre}}</p>
+<p><strong>Language:</strong> {{data.Language}}</p>
+<p><strong>Rating:</strong> {{data.imdbRating}}</p>
+<p><strong>Votes:</strong> {{data.imdbVotes}}</p>
+<p><strong>Type:</strong> {{data.Type}}</p>
